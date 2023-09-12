@@ -57,6 +57,15 @@ O arquivo .json  tem o seguinte formato:
 ]
 
 ```
+Onde:
+- **id**: Um `int` com o id de cada cliente;
+- **name**: Uma `string` com o nome do cliente;
+- **account**: Um `dict` com as informações de id da conta (*id*), número da conta (*number*), agência (*agency*), saldo (*balance*) e limite (*limit*);
+- **card**: Um `dct` com as informações de id da conta (*id*), número do cartão (*number*), limite do cartão (*limit*);
+- **features**: Um `dict` ...
+-**news**: Um `dict` ...
+
+
 Para extrair e alterar as informações vamos utilizar o pacote *pandas* do python.
 
 ### Geração de Mensagens Personalizadas
