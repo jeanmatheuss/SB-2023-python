@@ -1,4 +1,4 @@
-![logo]([https://github.com/jeanmatheuss/SB-2023-python/blob/main/imgs/logo_bootcamp.jpeg?raw=true](https://github.com/jeanmatheuss/SB-2023-python/blob/main/imgs/logo.jpg?raw=true))
+![logo](https://github.com/jeanmatheuss/SB-2023-python/blob/main/imgs/logo.jpg?raw=true)
 
 # **Projeto 1**: Explorando IA Generativa em Pipeline de ETL com Python
 
