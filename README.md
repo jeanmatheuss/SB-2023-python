@@ -63,14 +63,19 @@ Onde:
 - **account**: Um `dict` com as informações de id da conta (*id*), número da conta (*number*), agência (*agency*), saldo (*balance*) e limite (*limit*);
 - **card**: Um `dct` com as informações de id da conta (*id*), número do cartão (*number*), limite do cartão (*limit*);
 - **features**: Um `dict` ...
--**news**: Um `dict` ...
+- **news**: Um `dict` ...
 
 
 Para extrair e alterar as informações vamos utilizar o pacote *pandas* do python.
 
 ### Geração de Mensagens Personalizadas
 
+Para a geração de mensagens usamos o ChatGPT e sua API da OpenAI, assim ele gera uma mensagem personalizada com base no nome e no limite do cliente.
+
+>[Documentação da API da OpenAI](https://platform.openai.com/docs/api-reference/chat)
+
 ### Atualização dos Dados dos clientes
 
+Agora com a mensagem personalizada precisamos envia-la de volta a API de banco de dados dos clientes, atualizando a mensagem no banco de dados. E para saber se funcionou colocamos para imprimir 
 
 
