@@ -2,7 +2,7 @@
 
 # **Projeto 1**: Explorando IA Generativa em Pipeline de ETL com Python
 
-[Link do notebook]()
+[Link do notebook](https://github.com/jeanmatheuss/SB-2023-python/blob/main/bootcamp-santander23.ipynb)
 ---
 
 ## Contexto
