@@ -73,6 +73,10 @@ Para a geração de mensagens usamos o ChatGPT e sua API da OpenAI, assim ele ge
 
 ### Atualização dos Dados dos clientes
 
-Agora com a mensagem personalizada precisamos envia-la de volta a API de banco de dados dos clientes, atualizando a mensagem no banco de dados. E para saber se funcionou colocamos para imprimir 
+Agora com a mensagem personalizada precisamos envia-la de volta a API de banco de dados dos clientes, atualizando a mensagem no banco de dados. E em caso ocorra tudo certo, será feito um 'print' com a mensagem:  
+ ```"User {user} updated: True!" ```,   
+ caso contrário:   
+ ```"User {user} updated: False! Error: {error_code}"```  
+ informando o erro.
 
 
